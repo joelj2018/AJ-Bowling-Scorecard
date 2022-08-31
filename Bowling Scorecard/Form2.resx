@@ -1,0 +1,91 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Label2.Text" xml:space="preserve">
+    <value>
+I)  First select your desired option from the home page to either start or load a game or set a desired volume.
+II) If New Game is selected, begin by entering each players desired name in one of the selected spaces on the left. 
+III) After names are confirmed, you are now now free to start taking turns in the lane to bowl.
+IV) After you complete your bowl, click on the button corresponding to the amount of pins knocked down that turn. 
+V) If required have your second bowl and return to click on the amout of pins knocked down that turn
+VI) Allow the next player to have their turn and continue filling out their scores
+VII) Continue until all 10 frames are filled out to determine the winner
+
+1. A complete game consists of 10 frames.
+2. Each player tries to knock down 10 pins in each frame.
+3. After the completion of a game with 1-4 players, the final scores will be compared to find a winner
+4. You are allowed to bowl 2 balls in each frame.
+5. Exceptions:
+      a) If you knock down all the pins on the first ball, you won't need the second
+      b) If you score a strike in the 10th frame, you are entitled to 2 bonus balls.
+      c) If you score a spare in the 10 th frame with the first 2 balls, you get to bowl again.
+6. If you knock down all the pins on the first ball, you have scored a STRIKE (indicated with an X) and have
+scored a bonus for that frame. Your bonus is the number of pins you knock down on the next 2 balls
+bowled. Your score is 10 (for the strike) plus the bonus pins on the next 2 balls bowled.
+7. If you knock down all the pins with 2 balls, you have scored a SPARE (indicated with a /) and earned a bonus for
+that frame. Your bonus is the number of pins you knock down with the first ball in the next frame. Your score
+will be 10 (for the spare) plus the bonus pins on the next ball.
+8. If you fail to knock down all the pins in a frame, your score is the actual number of pins knocked down.
+
+</value>
+  </data>
+  <metadata name="ImageList1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+</root>
